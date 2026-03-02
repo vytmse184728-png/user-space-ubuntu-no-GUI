@@ -44,7 +44,7 @@ variable "bridge_lan" {
 
 variable "lan_vlan_tag" {
   type    = number
-  default = 0
+  default = 99
 }
 
 variable "ssh_public_key" {
